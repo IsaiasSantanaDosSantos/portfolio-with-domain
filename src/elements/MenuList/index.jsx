@@ -99,7 +99,7 @@ export const MenuList = (props) => {
                     to="references"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-31}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}
@@ -112,7 +112,7 @@ export const MenuList = (props) => {
                     to="contact"
                     spy={true}
                     smooth="easeInOutQuint"
-                    offset={-71}
+                    offset={-30}
                     duration={800}
                     onSetActive={handleSetActive}
                     onClick={(e)=> {e.preventDefault(); setActiveLink(true); {screenSize < 992 && closeMenu()}}}
